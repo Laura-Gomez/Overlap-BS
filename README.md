@@ -49,9 +49,10 @@ For each input file, a list of columns is provided. All columns must exist. When
  - **TFBS evidence level**
 
 **HT DATA DIRECTORY** [HT/]
+
 A BS is considered the same as one in RegulonDB if there is a match with the promoter name, the TF name and the TSS.DIST
 
-Each TF must have a csv with the following columns:
+Each TF must have a *.csv* file with the following columns:
 
  - found
  - ID1
@@ -72,7 +73,9 @@ Each TF must have a csv with the following columns:
  - LAST
 
 **TF LIST** [TF.LIST]
+
 A list of TFs of interest.
+
 One TF per line
 
 
@@ -80,10 +83,12 @@ One TF per line
 
 A PDF with four plots per TF:
  - Promoters that contain at least one binding site that was recovered by an HT technology:
+
   * Plot with only BSs with strong evidence
   * Plot with all BSs
 
  - Promoters that contain at least one  binding site that was not recovered by an HT technology:
+
   * Plot with only BSs with strong evidence
   * Plot with all BSs
 
