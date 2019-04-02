@@ -82,15 +82,13 @@ One TF per line
 ## OUTPUT [ Plot.pdf ]
 
 A PDF with four plots per TF:
- - Promoters that contain at least one binding site that was recovered by an HT technology:
+ * Promoters that contain at least one binding site that was recovered by an HT technology:
+	- Plot with only BSs with strong evidence
+	- Plot with all BSs
 
-  * Plot with only BSs with strong evidence
-  * Plot with all BSs
-
- - Promoters that contain at least one  binding site that was not recovered by an HT technology:
-
-  * Plot with only BSs with strong evidence
-  * Plot with all BSs
+ * Promoters that contain at least one  binding site that was not recovered by an HT technology:
+	- Plot with only BSs with strong evidence
+	- Plot with all BSs
 
 
 ### RUN
